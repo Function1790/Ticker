@@ -1,0 +1,65 @@
+create table Customer(
+	num int not null auto_increment,
+    name text not null,
+    uid text not null,
+    upw text not null,
+	primary key(num));
+    
+create table Seat(
+	num int not null auto_increment,
+    name text not null,
+    date datetime not null,
+    location text not null,
+    seats_data json not null,
+    price int not null,
+	primary key(num));
+
+insert into Customer(uid, upw, name) values ("guest","guest","guest");
+insert into Customer(uid, upw, name) values ("david","david","David");
+insert into Customer(uid, upw, name) values ("willson","willnot","Willson");
+insert into Customer(uid, upw, name) values ("admin","0000","admin");
+
+
+insert into Seat (name, date, location, seats_data, price) value(
+	"서령콘서트 : SSR과의 만남",
+    "2023-12-23 13:20:00",
+    "충청남도 서산시 서령고등학교",
+    '[
+    {
+        "id": "A1",
+        "owner": "David",
+        "ticketID": "XAF31SU"
+    },
+    {
+        "id": "A2",
+        "owner": "Willson",
+        "ticketID": "UAF27SP"
+    },
+    {
+        "id": "A3",
+        "owner": null,
+        "ticketID": "UAF212I"
+    },
+    {
+        "id": "A4",
+        "owner": null,
+        "ticketID": "15PDCM"
+    },
+    {
+        "id": "A5",
+        "owner": "Amilla",
+        "ticketID": "GFD212I"
+    },
+    {
+        "id": "A6",
+        "owner": null,
+        "ticketID": "YSD212I"
+    },
+    {
+        "id": "A7",
+        "owner": "Tomas",
+        "ticketID": "VCL212I"
+    }
+	]',
+	13000
+);

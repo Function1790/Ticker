@@ -1,0 +1,40 @@
+[
+    {
+        "id": "A1",
+        "locate" : {
+            
+        },
+        "owner": "David",
+        "ticketID": "XAF31SU"
+    },
+    {
+        "id": "A2",
+        "owner": "Willson",
+        "ticketID": "UAF27SP"
+    },
+    {
+        "id": "A3",
+        "owner": null,
+        "ticketID": "UAF212I"
+    },
+    {
+        "id": "A4",
+        "owner": null,
+        "ticketID": "15PDCM"
+    },
+    {
+        "id": "A5",
+        "owner": "Amilla",
+        "ticketID": "GFD212I"
+    },
+    {
+        "id": "A6",
+        "owner": null,
+        "ticketID": "YSD212I"
+    },
+    {
+        "id": "A7",
+        "owner": "Tomas",
+        "ticketID": "VCL212I"
+    }
+]
